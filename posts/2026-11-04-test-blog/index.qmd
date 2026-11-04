@@ -7,7 +7,7 @@ bibliography: references.bib
 citation:
     url: https://veronica-moran.github.io/posts/2026-11-04-test-blog/
 image: ../images/
-draft: false # false = posts to website, true = saves as a draft
+draft: true # false = posts to website, true = saves as a draft
 ---
 
 Here is where the blog post content begins

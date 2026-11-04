@@ -1,0 +1,15 @@
+{
+  "hash": "1486f6dd443df91ce35b312befaa18ed",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"First Blog Post\"\ndescription: \"Short description that apears on listing page\"\ndate: 11-04-2026\ncategories: [Quarto, R, MEDS, Geospatial]\nbibliography: references.bib\ncitation:\n    url: https://veronica-moran.github.io/posts/2026-11-04-test-blog/\nimage: ../images/\ndraft: false # false = posts to website, true = saves as a draft\n---\n\nHere is where the blog post content begins\n\n### Method 1 to add footnote\n\nInserting a footnote here[^1].\n\n[^1]: Here is the associated text.\n\n### Method 2 - Inline\n\nInserting an inline footnote here^[here is my inline footnote.]\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1 \n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\nThis was explored in previous work [@csik2021]",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

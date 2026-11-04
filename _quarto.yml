@@ -9,16 +9,19 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - posts.qmd
       - href: resources.qmd
         text: Resources
+  page-footer:
+    left: "© 2026 Veronica Moran"
+    center: "Master of Environmental Data Science | UCSB"
 
 format:
   html:
-    theme:
-      light: minty
-      dark: solar
-    css: styles.css
+    theme: styles.scss
     toc: true
+    page-layout: full
+    mainfont: Monserat
 
 
 

@@ -1,0 +1,47 @@
+/*--scss:defaults--*/
+
+//Colors
+$peacock: #215261;
+$sand:#ECD6B5;
+$gray: #BEC0BC;
+$white: #F6F6F6;
+$teal: #5E857C;
+$grayteal: #94ABAA;
+$black: #000000;
+$teal2: #15616D;
+$charcoal: #313131;
+$fog: #BED1D0;
+
+
+// Assign to Quarto Sass variables
+$navbar-bg: $peacock;        // navbar background
+$navbar-fg: $sand;   // navbar text/icons
+$navbar-hl: $white;       // navbar hover highlight
+$body-bg: $fog;    // page background
+$body-color: $charcoal;        // page text
+$footer-bg: $grayteal;        // footer background
+$footer-fg: $charcoal;
+$link-color: $charcoal;    // hyperlinks
+$code-bg: $teal;          // inline code background
+$code-color: $black;      // inline code text
+
+/*-- scss:defaults --*/
+
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sen:wght@400..800&display=swap');
+
+// Colors
+$sand:#ECD6B5;
+// ...
+
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+/* Write your CSS rules below here */
+/*-- scss:rules --*/
+
+h1, h2 {
+  letter-spacing: 5px;
+  font-weight: 800;
+}

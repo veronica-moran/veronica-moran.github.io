@@ -1,0 +1,12 @@
+# rerender posts only when source changes
+freeze: auto
+
+# banner style title blocks
+title-block-banner: true
+
+# author info applied to all posts
+author: 
+    - name: Veronica Moran
+      url: https://veronica-moran.github.io/
+      affiliation: Master of Environmental Data Science Program at Bren UCSB"
+      affiliation-url: https://ucsb-meds.github.io/

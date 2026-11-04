@@ -1,0 +1,32 @@
+---
+title: "First Blog Post"
+description: "Short description that apears on listing page"
+date: 11-04-2026
+categories: [Quarto, R, MEDS, Geospatial]
+bibliography: references.bib
+citation:
+    url: https://veronica-moran.github.io/posts/2026-11-04-test-blog/
+image: ../images/
+draft: false # false = posts to website, true = saves as a draft
+---
+
+Here is where the blog post content begins
+
+### Method 1 to add footnote
+
+Inserting a footnote here[^1].
+
+[^1]: Here is the associated text.
+
+### Method 2 - Inline
+
+Inserting an inline footnote here^[here is my inline footnote.]
+
+
+
+```{r}
+1 + 1 
+```
+
+
+This was explored in previous work [@csik2021]
